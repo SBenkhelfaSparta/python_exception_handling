@@ -1,4 +1,4 @@
-class P_Exceptions:
+class PExceptions:
     def exce(self, item):
         try:
             file = open("order.txt", "a")
