@@ -15,5 +15,5 @@
 # Task
 
 from pack import p_exceptions
-pex = p_exceptions.P_Exceptions()
-pex.exce(input("Please enter what items you would like to add: "))
+pex = p_exceptions.PExceptions()
+pex.exce(input("Please enter what items you would like to add: ")) #seperate items by commas
