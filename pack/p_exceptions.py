@@ -3,7 +3,8 @@ class P_Exceptions:
         try:
             file = open("order.txt", "a")
             print("File found")
-            file.write(item+"\n")
+            for x in item.split(","):
+                file.write(x.lstrip() + "\n")
             file.close()
         except FileNotFoundError as errmsg:
             print("File not found: {}".format(errmsg))
