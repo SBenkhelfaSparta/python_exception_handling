@@ -16,4 +16,4 @@
 
 from pack import p_exceptions
 pex = p_exceptions.P_Exceptions()
-pex.exce()
+pex.exce(input("Please enter what item you would like to add: "))
