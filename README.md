@@ -5,7 +5,7 @@
 ##### Example of errors/exception
 -  `value error`
 - `syntax error`
-- `out of bounce `
+- `out of bounds `
 - `key error`
 - `attribute error`
 - `ZeroDivisionError: division by zero`
