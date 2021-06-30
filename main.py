@@ -12,13 +12,8 @@
 # file = open("order.txt")  # `open()` takes a string arg with file name
 # print(file)
 
-# Second Iteration
+# Task
 
-try:
-    file = open("order.txt")
-    print("File found")
-except FileNotFoundError as errmsg:
-    print("File not found: {}".format(errmsg))
-    # raise
-finally:
-    print('Goodbye')
+from pack import p_exceptions
+pex = p_exceptions.P_Exceptions()
+pex.exce()
