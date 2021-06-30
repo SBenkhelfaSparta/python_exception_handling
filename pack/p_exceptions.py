@@ -3,6 +3,7 @@ class P_Exceptions:
         try:
             file = open("order.txt", "a")
             print("File found")
+            print(file.read())
             for x in item.split(","):
                 file.write(x.lstrip() + "\n")
             file.close()
