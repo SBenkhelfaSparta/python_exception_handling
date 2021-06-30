@@ -5,6 +5,8 @@ class P_Exceptions:
             print("File found")
         except FileNotFoundError as errmsg:
             print("File not found: {}".format(errmsg))
-            # raise
+            file2 = open("order.txt", "w")
+            file2.write("one of everything")
+            file2.close()
         finally:
             print('Goodbye')
